@@ -5163,6 +5163,10 @@ template {
 .devicon-html5-plain.colored {
     color: #e54d26
 }
+.devicon-anaconda-plain-wordmark.colored,
+.devicon-anaconda-plain.colored {
+    color: #038229
+}
 
 .devicon-ie10-original.colored,
 .devicon-ie10-plain.colored {
@@ -5291,6 +5295,10 @@ template {
     color: #ffd845
 }
 
+.devicon-pandas-plain-wordmark.colored,
+.devicon-pandas-plain.colored {
+    color: #530489
+}
 .devicon-rails-plain-wordmark.colored,
 .devicon-rails-plain.colored {
     color: #a62c46
