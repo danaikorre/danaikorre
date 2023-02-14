@@ -5639,6 +5639,11 @@ a img {
     margin: 5px auto
 }
 
+.research_skills {
+    text-align: center;
+    margin: 5px auto
+}
+
 #projects {
     display: flex;
     flex-direction: column;
