@@ -5672,7 +5672,6 @@ a img {
 
 #public {
   display: flex;
-  flex-direction: inherit;
   justify-content: space-between;
   width: 90%;
   max-width: 960px;
