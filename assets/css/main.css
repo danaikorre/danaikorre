@@ -5719,6 +5719,15 @@ a img {
     .images-left img {
         float: left
     }
+
+    .images-center {
+      float: center;
+      width: 48%
+  }
+
+    .images-center img {
+      float: center
+  }
 }
 
 .project-link {
