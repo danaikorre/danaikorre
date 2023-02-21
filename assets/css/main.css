@@ -5671,9 +5671,10 @@ a img {
 }
 
 #public {
+
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
   width: 90%;
   max-width: 960px;
   margin: 0 auto
