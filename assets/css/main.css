@@ -5679,8 +5679,8 @@ a img {
 #public {
 
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
   width: 90%;
   max-width: 960px;
   margin: 0 auto
@@ -5690,16 +5690,16 @@ a img {
     #projects {
         width: 80%
     }
+    #teaching {
+      width: 80%
+    }
+
+    #public {
+      width: 80%
+    }
 }
 
-#teaching {
-  width: 80%
-}
 
-
-#public {
-  width: 80%
-}
 
 .user-projects {
     margin: 60px auto
@@ -5716,7 +5716,7 @@ a img {
 }
 
 .user-projects li {
-    color: #38007d;
+    color: #333333;
     font-size: 1.1rem
 }
 
@@ -5755,13 +5755,14 @@ a img {
     }
 
     .images-center {
-      float: center;
+      float: left;
       width: 48%
-  }
+    }
 
     .images-center img {
-      float: center
-  }
+      float: left
+    }
+
 }
 
 .project-link {
