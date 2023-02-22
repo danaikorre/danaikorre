@@ -5719,7 +5719,7 @@ a img {
 .user-projects li {
     color: #333333;
     font-size: 1 rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .user-projects p {
