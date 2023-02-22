@@ -5728,23 +5728,29 @@ a img {
 
 @media only screen and (min-width:550px) {
     .contents {
+      margin-bottom:auto;
         margin-left: 0;
-        width: 48%
+        width: 48%;
+        
+
     }
 
     .contents,
     .contents-right {
         margin-top: -5%
+        
     }
 
     .contents-right,
     .images-right {
         float: right;
-        width: 48%
+        width: 48%;
+        
     }
 
     .images-right img {
-        float: right
+        float: right;
+        padding-bottom: 20px;
     }
 
     .images-left {
@@ -5768,9 +5774,9 @@ a img {
 }
 
 .project-link {
-    display: inline-block;
+    display:inline-block;
     margin: 10px 0;
-    padding: 2px;
+    padding: 5px;
     color: #38007d;
     background-color: transparent;
     border: 1px solid #38007d;
@@ -5779,7 +5785,7 @@ a img {
     outline: 0;
     text-decoration: none;
     cursor: pointer;
-    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
 }
 
 .project-link:active,
