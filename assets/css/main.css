@@ -333,7 +333,8 @@ template {
 }
 
 .fa-ul>li {
-    position: relative
+    position: relative;
+    text-align: justify
 }
 
 .fa-li {
@@ -5717,7 +5718,8 @@ a img {
 
 .user-projects li {
     color: #333333;
-    font-size: 1.1rem
+    font-size: 1 rem;
+    text-align: justify;
 }
 
 .user-projects p {
